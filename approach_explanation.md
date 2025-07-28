@@ -47,10 +47,10 @@ Adobe1b/
 ├── Dockerfile             # Dockerized execution for isolated runs
 ├── requirements.txt       # Python dependencies
 ├── run.sh                 # Optional shell script for execution
-└── ReadMe.md              # Project overview and usage
+└── approach_explanation.md              # Project overview and usage
 ```
 
-└── ReadMe.md
+
 
 ##  Libraries and Models Used
 Python 3.10
