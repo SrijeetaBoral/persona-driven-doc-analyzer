@@ -69,7 +69,6 @@ Adobe1b/
 python src/main.py
 
 ##  Constraints Met
-- Constraint	Status
 - CPU-only execution	
 - Offline-only (no internet access)	
 - Model size ≤ 1GB	
