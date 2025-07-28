@@ -65,7 +65,7 @@ json, os, datetime – for data handling and I/O
 
 Model Used: all-MiniLM-L6-v2 from SentenceTransformers (offline compatible, ≤90MB)
 
-##Run the project
+## Run the project
 python src/main.py
 
 ##  Constraints Met
