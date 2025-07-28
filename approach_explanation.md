@@ -32,24 +32,24 @@ Our pipeline follows these steps:
 
 ---
 
-##  Project Structure
-
+```
 Adobe1b/
-│
-├── data/                         # Input folder containing all PDFs
-├── output/                       # Stores the final output JSON file
+├── data/                  # Input folder containing all PDFs
+├── output/                # Stores the final output JSON file
 ├── src/
-│   ├── main.py                   # Entry point of the system
-│   ├── pdf_loader.py             # Loads and segments all PDFs
-│   ├── persona_detector.py       # Auto-detects persona and job from PDFs
-│   ├── persona_parser.py         # Embeds persona and job phrases
-│   ├── section_ranker.py         # Ranks PDF chunks by relevance
-│   ├── sub_section_analyzer.py   # Refines the extracted segments
-│   └── generate_output.py        # Assembles and writes final output JSON
-│
-├── Dockerfile                    # Dockerized execution for isolated offline runs
-├── requirements.txt              # Python dependencies
-├── run.sh                        # Optional shell script for execution
+│   ├── main.py            # Entry point of the system
+│   ├── pdf_loader.py      # Loads and segments all PDFs
+│   ├── persona_detector.py# Auto-detects persona and job from PDFs
+│   ├── persona_parser.py  # Embeds persona and job phrases
+│   ├── section_ranker.py  # Ranks PDF chunks by relevance
+│   ├── sub_section_analyzer.py # Refines the extracted segments
+│   └── generate_output.py # Assembles and writes final output JSON
+├── Dockerfile             # Dockerized execution for isolated runs
+├── requirements.txt       # Python dependencies
+├── run.sh                 # Optional shell script for execution
+└── ReadMe.md              # Project overview and usage
+```
+
 └── ReadMe.md
 
 ##  Libraries and Models Used
