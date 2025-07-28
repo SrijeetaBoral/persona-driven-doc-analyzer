@@ -1,9 +1,9 @@
-# 📘 Persona-Driven Document Intelligence (Round 1B)  
+#  Persona-Driven Document Intelligence (Round 1B)  
 ### Adobe India Hackathon 2025 – “Connect What Matters — For the User Who Matters”
 
 
 
-## ✅ Overview
+##  Overview
 
 This project is an **intelligent document analysis system** designed to extract and prioritize the most relevant sections from a collection of PDFs, based on a given **persona** and their **job-to-be-done**.
 
@@ -11,7 +11,7 @@ It handles various domains such as research papers, educational material, busine
 
 ---
 
-## 🧠 Approach
+##  Approach
 
 Our pipeline follows these steps:
 
@@ -32,7 +32,7 @@ Our pipeline follows these steps:
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 Adobe1b/
 │
@@ -52,7 +52,7 @@ Adobe1b/
 ├── run.sh                        # Optional shell script for execution
 └── ReadMe.md
 
-## 📚 Libraries and Models Used
+##  Libraries and Models Used
 Python 3.10
 
 PyMuPDF (fitz) – PDF layout and text extraction
@@ -65,7 +65,10 @@ json, os, datetime – for data handling and I/O
 
 Model Used: all-MiniLM-L6-v2 from SentenceTransformers (offline compatible, ≤90MB)
 
-## ✅ Constraints Met
+##Run the project
+python src/main.py
+
+##  Constraints Met
 Constraint	Status
 CPU-only execution	
 Offline-only (no internet access)	
