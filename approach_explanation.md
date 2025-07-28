@@ -53,27 +53,27 @@ Adobe1b/
 
 
 ##  Libraries and Models Used
-Python 3.10
+- Python 3.10
 
-PyMuPDF (fitz) – PDF layout and text extraction
+- PyMuPDF (fitz) – PDF layout and text extraction
 
-sentence-transformers – for semantic embedding of text and persona
+- sentence-transformers – for semantic embedding of text and persona
 
-scikit-learn – cosine similarity for relevance ranking
+- scikit-learn – cosine similarity for relevance ranking
 
-json, os, datetime – for data handling and I/O
+- json, os, datetime – for data handling and I/O
 
-Model Used: all-MiniLM-L6-v2 from SentenceTransformers (offline compatible, ≤90MB)
+- Model Used: all-MiniLM-L6-v2 from SentenceTransformers (offline compatible, ≤90MB)
 
 ## Run the project
 python src/main.py
 
 ##  Constraints Met
-Constraint	Status
-CPU-only execution	
-Offline-only (no internet access)	
-Model size ≤ 1GB	
-Runtime ≤ 60 seconds for 3–5 PDFs	
-Docker-compatible execution	
-Supports 3–10 PDFs	
-Supports dynamic persona detection	
+- Constraint	Status
+- CPU-only execution	
+- Offline-only (no internet access)	
+- Model size ≤ 1GB	
+- Runtime ≤ 60 seconds for 3–5 PDFs	
+- Docker-compatible execution	
+- Supports 3–10 PDFs	
+- Supports dynamic persona detection	
