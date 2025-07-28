@@ -1,10 +1,10 @@
-# src/persona_detector.py
+
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-# Sample personas & jobs (can expand later)
+
 PREDEFINED_PROFILES = [
     {
         "persona": "Travel Planner",
@@ -21,6 +21,14 @@ PREDEFINED_PROFILES = [
     {
         "persona": "PhD Researcher",
         "job": "Extract related work and methods section from recent academic publications."
+    },
+    {
+        "persona": "Investment Analyst",
+        "job": "Analyze revenue trends, R&D investments, and market positioning strategies."
+    },
+    {
+        "persona": "Undergraduate Chemistry Student",
+        "job": "Identify key concepts and mechanisms for exam preparation on reaction kinetics."
     }
 ]
 

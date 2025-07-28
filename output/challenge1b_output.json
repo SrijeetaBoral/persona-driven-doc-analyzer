@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Traditions and Culture.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Cities.pdf",
+      "South of France - Tips and Tricks.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "timestamp": "2025-07-28 19:14:53.027609"
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 1,
+      "section_title": "Planning, and Exploring",
+      "importance_rank": 1
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "page_number": 2,
+      "section_title": "Travel Tips",
+      "importance_rank": 2
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 7,
+      "section_title": "Beach Trips",
+      "importance_rank": 3
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 9,
+      "section_title": "Packing for a trip to the South of France involves considering the season, plann",
+      "importance_rank": 4
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "page_number": 4,
+      "section_title": "Pilgrimages",
+      "importance_rank": 5
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "page_number": 10,
+      "section_title": "Montpellier: A University City with Medieval Charm",
+      "importance_rank": 6
+    },
+    {
+      "document": "South of France - History.pdf",
+      "page_number": 10,
+      "section_title": "Montpellier: A University City with Medieval Charm",
+      "importance_rank": 7
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "page_number": 4,
+      "section_title": "Must-Visit Restaurants",
+      "importance_rank": 10
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "page_number": 9,
+      "section_title": "Family-Friendly Hotels",
+      "importance_rank": 11
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "page_number": 1,
+      "section_title": "Ultimate Guide to Activities and Things to Do in the South of France",
+      "importance_rank": 12
+    }
+  ],
+  "sub_section_analysis": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 1,
+      "refined_text": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing, Planning, and Exploring"
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "page_number": 2,
+      "refined_text": "Travel Tips"
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 7,
+      "refined_text": "Beach Trips"
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 9,
+      "refined_text": "enjoyable trip. Remember to pack light, versatile clothing, and essential items to make the most of your travel experience. Bon voyage!"
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "page_number": 4,
+      "refined_text": "Pilgrimages"
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "page_number": 10,
+      "refined_text": "Montpellier: A University City with Medieval Charm"
+    },
+    {
+      "document": "South of France - History.pdf",
+      "page_number": 10,
+      "refined_text": "Montpellier: A University City with Medieval Charm"
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "page_number": 4,
+      "refined_text": "Must-Visit Restaurants"
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "page_number": 9,
+      "refined_text": "Family-Friendly Hotels"
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "page_number": 1,
+      "refined_text": "Ultimate Guide to Activities and Things to Do in the South of France"
+    }
+  ]
+}
